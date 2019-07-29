@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>The Gossip Project</title>
+    </head>
+
+    <body>
+        <h1>Voici le gossip n°<%=id%> </h1>
+
+        <p><% id %>
+        <br/>
+        L'auteur est : <%= gossip.author %><br/>
+        Le gossip : <%= gossip.content %><br/>
+        <a href="/gossips/<%=id%>/edit/">Editer le gossip</a> <!-- bouton ne fonctionne pas -->
+        </p>
+        
+
+    </body>
+
+</html>
